@@ -1,0 +1,26 @@
+.footer {
+    width: 100%;
+}
+.arti-box {
+    width: 100%;
+    border-top: solid 1px #e0e0e0;
+    background: #f3f3f3;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 40px 0 100px 0;
+}
+.arti01 {
+    width: 90%;
+    margin: 0 auto;
+}
+.arti02 {
+    width: 90%;
+    line-height: 18px;
+    margin: 20px auto;
+    color: #818181;
+}
+.arti03 {
+    width: 90%;
+    margin: 0 auto;
+}

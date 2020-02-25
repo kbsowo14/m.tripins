@@ -1,0 +1,152 @@
+.sec01 {
+    width: 100%;
+    position: relative;
+}
+.sec01 > .copy {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.sec01 > .copy > p:nth-child(1) {
+    width: 90%;
+    font-size: 22px;
+    line-height: 36px;
+    margin: 0 auto;
+    
+}
+.sec01 > .copy > p:nth-child(2) {
+    width: 90%;
+    font-size: 14px;
+    color: #818181;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.sec01 > .image {
+    width: 90%;
+    border-bottom: solid 2px #ededed;
+    padding-top: 200px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.sec02 {
+    width: 100%;
+    position: relative;
+}
+.sec02 > .text {
+    width: 90%;
+    margin: 20px auto;
+}
+.sec02 > .text > .tit {
+    font-size: 16px;
+    border-bottom: solid 1px #19c3ff;
+    letter-spacing: -0.5px;
+}
+.sec02 > .text > .tit > .num {
+    display: inline-block;
+    color: #19c3ff;
+    font-size: 32px;
+    font-weight: 100;
+    margin-right: 10px;
+    transform: translateY(3px);
+}
+.sec02 > .text > .copy {
+    padding-top: 10px;
+    font-size: 14px;
+    color: #818181;
+    line-height: 22px;
+}
+
+.sec03 {
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+}
+
+.sec03 > .tit {
+    font-size: 18px;
+    text-align: center;
+    border-bottom: solid 1px #818181;
+    width: 90%;
+    margin: 0 auto;
+}
+.sec03 > .tit > p {
+    line-height: 60px;
+}
+
+.sec03 > .list {
+    width: 90%;
+    margin: 20px auto;
+    font-size: 14px;
+    color: #818181;
+    line-height: 22px;
+}
+
+.sec03 > .list > .item {
+    padding: 5px 0; 
+}
+
+.sec03 > .check {
+    width: 100%;
+}
+.sec03 > .check > .check-btn {
+    border: none;
+    padding: 0;
+    background: #ffffff;
+    display: block;
+    width: 90%;
+    height: 70px;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff5e5e;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: -0.5px;
+    border: solid 1px #ff5e5e;
+    position: relative;
+}
+.sec03 > .check > .check-btn > .plus {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ff5e5e;
+    width: 20px;
+    height: 20px;
+}
+.sec03 > .check > .check-btn > .plus > span:nth-child(1) {
+    width: 10px;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sec03 > .check > .check-btn > .plus > span:nth-child(2) {
+    width: 2px;
+    height: 10px;
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.insure-go {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
+    height: 60px;
+    background: #27c7ff;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: none;
+    font-size: 16px;
+    padding: 0;
+}

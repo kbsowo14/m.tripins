@@ -1,0 +1,124 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+}
+
+.gnb {
+    width: 100%;
+    height: 60px;
+    border-bottom: solid 1px #e0e0e0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 9990;
+}
+
+.h-logo {
+    display: block;
+    width: 78px;
+    height: 26px;
+    background: url('../../img/h_logo.png') no-repeat center center;
+    position: absolute; 
+    top: 18px;
+    left: 20px;
+    z-index: 9999;
+}
+
+#gnb-icon {display: none;}
+
+.gnb-icon {
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 9999;
+}
+.gnb-icon > span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #333333;
+    position: absolute;
+    left: 0;
+    transition: all 0.5s;
+}
+.gnb-icon > span:nth-child(1) {
+    top: 0;
+}
+.gnb-icon > span:nth-child(2) {
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.gnb-icon > span:nth-child(3) {
+    bottom: 0;
+}
+#gnb-icon:checked ~ .menu {
+    left: 0;
+}
+#gnb-icon:checked ~ .gnb-icon > span:nth-child(1) {
+    transform: translate(0, 9px) rotate(45deg);
+}
+#gnb-icon:checked ~ .gnb-icon > span:nth-child(2) {
+    opacity: 0;
+}
+#gnb-icon:checked ~ .gnb-icon > span:nth-child(3) {
+    transform: translate(0, -9px) rotate(-45deg);
+}
+
+.menu {
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: all 0.5s;
+    z-index: 9990;
+    border-bottom: solid 1px #e0e0e0;
+    font-size: 0;
+}
+
+.dep01 > input {
+    display: none;
+}
+
+.dep01:nth-child(1) {
+    margin-top: 60px;
+}
+.deptit {
+    text-indent: 20px;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: solid 2px #81deff;
+}
+.dep01:nth-child(1) .deptit {
+    border-top: solid 1px #e0e0e0;
+}
+
+.dep02 {
+    font-size: 0;
+    height: 0;
+    overflow: hidden;
+}
+.dep02 > li {
+    text-indent: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 10px 0;
+    border-bottom: solid 1px #e0e0e0;
+    background: #f3f3f3;
+}
+
+.depliston:checked ~ .dep02 {
+    height: 100%;
+}
